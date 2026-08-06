@@ -18,9 +18,9 @@ This repository is under active development. Many features are TODO.
 
 - [ ] **aria/features/mfcc.py:2** - cache mel filterbanks per sample rate
 - [ ] **aria/features/mfcc.py:3** - support delta and delta-delta coefficients
-- [ ] **aria/features/mfcc.py:20** - port to GPU using cupy
 - [ ] **aria/features/spectrogram.py:2** - add windowing function selection
 - [ ] **aria/features/spectrogram.py:6** - vectorize the mel projection loop
+- [ ] **aria/features/spectrogram.py:7** - expose configurable number of mel bands
 - [ ] **aria/io/loader.py:2** - auto-resample to a target sample rate
 - [ ] **aria/io/loader.py:3** - handle multi-channel downmixing
 - [ ] **aria/models/asr.py:3** - integrate beam search decoding
